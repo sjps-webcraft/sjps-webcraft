@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #fffafa;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: #a80000;
+    color: white;
+    padding: 25px 8%;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 32px;
+    letter-spacing: 2px;
+}
+
+header p {
+    color: #ffe0e0;
+}
+
+nav {
+    background: #760000;
+    padding: 14px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 16px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffd6d6;
+    text-decoration: underline;
+}
+
+.hero {
+    background: linear-gradient(120deg, #fff0f0, #ffffff);
+    padding: 55px 10%;
+    text-align: center;
+}
+
+.hero h2 {
+    color: #a80000;
+    font-size: 34px;
+}
+
+.hero p {
+    max-width: 750px;
+    margin: 15px auto;
+}
+
+main {
+    padding: 35px 10%;
+}
+
+h2, h3 {
+    color: #a80000;
+    margin-bottom: 12px;
+}
+
+section {
+    margin-bottom: 28px;
+}
+
+.card {
+    background: white;
+    border-left: 5px solid #b00000;
+    padding: 20px;
+    margin: 15px 0;
+    box-shadow: 0 3px 12px #00000012;
+    border-radius: 8px;
+}
+
+ul {
+    padding-left: 25px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background: white;
+}
+
+th, td {
+    border: 1px solid #e4baba;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background: #a80000;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background: #fff0f0;
+}
+
+.campus-art {
+    margin: 25px auto;
+    max-width: 650px;
+    background: #a80000;
+    color: white;
+    padding: 35px;
+    border-radius: 14px;
+    font-size: 55px;
+}
+
+.campus-art p {
+    font-size: 17px;
+}
+
+.button {
+    display: inline-block;
+    background: #a80000;
+    color: white;
+    padding: 12px 24px;
+    margin-top: 15px;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+.button:hover {
+    background: #650000;
+}
+
+footer {
+    background: #760000;
+    color: white;
+    text-align: center;
+    padding: 18px;
+    margin-top: 30px;
+}
+
+@media (max-width: 650px) {
+    nav a {
+        display: inline-block;
+        margin: 6px;
+    }
+
+    main {
+        padding: 25px 6%;
+    }
+}
